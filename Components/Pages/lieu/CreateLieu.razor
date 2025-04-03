@@ -1,0 +1,91 @@
+﻿@page "/lieu/create"
+@inject DatabaseService DatabaseService
+@inject NavigationManager NavigationManager
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <nav aria-label="breadcrumb" class="mb-4">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/" class="text-decoration-none">Lieux</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Nouveau lieu</li>
+                </ol>
+            </nav>
+
+            <div class="card border-0 shadow-sm rounded-3">
+                <div class="card-header bg-primary text-white py-3">
+                    <h2 class="card-title mb-0 fs-4">
+                        <i class="bi bi-plus-circle-fill me-2"></i>Ajouter un nouveau lieu
+                    </h2>
+                </div>
+                <div class="card-body p-4">
+                    <EditForm Model="@lieu" OnValidSubmit="HandleValidSubmit" class="needs-validation">
+                        <DataAnnotationsValidator />
+
+                        <div class="alert alert-info mb-4">
+                            <div class="d-flex">
+                                <div class="me-3">
+                                    <i class="bi bi-info-circle-fill fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="alert-heading">Informations importantes</h5>
+                                    <p class="mb-0">Tous les champs marqués d'un astérisque (*) sont obligatoires.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <ValidationSummary class="text-danger" />
+                        </div>
+
+                        <input type="hidden" bind-Value="lieu.UserIdCreation" />
+
+                        <div class="mb-4">
+                            <label for="nom" class="form-label fw-medium">Nom du lieu <span class="text-danger">*</span></label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light"><i class="bi bi-geo-alt"></i></span>
+                                <InputText id="nom" @bind-Value="lieu.Nom" class="form-control form-control-lg" placeholder="Entrez le nom du lieu" />
+                            </div>
+                            <ValidationMessage For="@(() => lieu.Nom)" class="text-danger small mt-1" />
+                            <div class="form-text">Le nom doit être unique et descriptif.</div>
+                        </div>
+
+                        <hr class="my-4" />
+
+                        <div class="d-flex justify-content-between">
+                            <button type="button" class="btn btn-light btn-lg px-4" @onclick="Cancel">
+                                <i class="bi bi-arrow-left me-2"></i>Retour
+                            </button>
+                            <button type="submit" class="btn btn-primary btn-lg px-4">
+                                <i class="bi bi-save me-2"></i>Enregistrer
+                            </button>
+                        </div>
+                    </EditForm>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private Lieu lieu = new Lieu { UserIdCreation = 5 }; // Assigner la valeur par défaut
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            await DatabaseService.CreateLieu(lieu);
+            NavigationManager.NavigateTo("/home");
+        }
+        catch (Exception ex)
+        {
+            // Gérer l'erreur ici
+            Console.WriteLine($"Erreur lors de la création: {ex.Message}");
+        }
+    }
+
+    private void Cancel()
+    {
+        NavigationManager.NavigateTo("/home");
+    }
+}
