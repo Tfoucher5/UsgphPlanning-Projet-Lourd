@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UsgphPlanning")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+de1ed8cbd3c870f9a6d39f53ee5a80c348ff7e9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("UsgphPlanning")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UsgphPlanning")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

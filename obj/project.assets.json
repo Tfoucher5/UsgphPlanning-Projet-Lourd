@@ -68729,11 +68729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\usgph-planning-lourd\\UsgphPlanning\\UsgphPlanning.csproj",
+      "projectUniqueName": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\UsgphPlanning-Projet-Lourd\\UsgphPlanning.csproj",
       "projectName": "UsgphPlanning",
-      "projectPath": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\usgph-planning-lourd\\UsgphPlanning\\UsgphPlanning.csproj",
+      "projectPath": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\UsgphPlanning-Projet-Lourd\\UsgphPlanning.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\usgph-planning-lourd\\UsgphPlanning\\obj\\",
+      "outputPath": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\UsgphPlanning-Projet-Lourd\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

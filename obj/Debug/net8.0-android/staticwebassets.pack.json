@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\usgph-planning-lourd\\UsgphPlanning\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\UsgphPlanning.styles.css",
+      "Id": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\UsgphPlanning-Projet-Lourd\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\UsgphPlanning.styles.css",
       "PackagePath": "staticwebassets\\UsgphPlanning.styles.css"
     },
     {
-      "Id": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\usgph-planning-lourd\\UsgphPlanning\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\UsgphPlanning-Projet-Lourd\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\usgph-planning-lourd\\UsgphPlanning\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\UsgphPlanning-Projet-Lourd\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\usgph-planning-lourd\\UsgphPlanning\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\UsgphPlanning-Projet-Lourd\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\usgph-planning-lourd\\UsgphPlanning\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\UsgphPlanning-Projet-Lourd\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\usgph-planning-lourd\\UsgphPlanning\\wwwroot\\index.html",
+      "Id": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\UsgphPlanning-Projet-Lourd\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

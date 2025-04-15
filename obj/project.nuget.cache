@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ljxtSzmTFv+/90TutE1kY3vdkjXJSw1S/5R5Rwc0qyUMhjmPtjHkc+ml8O3Z1slOd3WuUz3OCjGfhhiCVl2zjA==",
+  "dgSpecHash": "c3IrSpZ8+anNdN7JmCIWteZ2pmeLzpPeLpRRwkcBJLkxP0qtXHxrgdOlrtCRpJxVRQwNZ2+ZReNSb2vKqee5rA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\usgph-planning-lourd\\UsgphPlanning\\UsgphPlanning.csproj",
+  "projectFilePath": "C:\\Users\\lenovo\\OneDrive - LYCEE NOTRE DAME ESPERANCE\\Bureau\\UsgphPlanning-Projet-Lourd\\UsgphPlanning.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",

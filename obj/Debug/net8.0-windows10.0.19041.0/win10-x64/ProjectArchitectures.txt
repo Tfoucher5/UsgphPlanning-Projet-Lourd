@@ -1,1 +1,1 @@
-C:\Users\lenovo\OneDrive - LYCEE NOTRE DAME ESPERANCE\Bureau\usgph-planning-lourd\UsgphPlanning\UsgphPlanning.csproj;x64
+C:\Users\lenovo\OneDrive - LYCEE NOTRE DAME ESPERANCE\Bureau\UsgphPlanning-Projet-Lourd\UsgphPlanning.csproj;x64
